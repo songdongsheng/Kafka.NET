@@ -4,7 +4,7 @@
     "authors": [ "宋冬生" ],
     "description": "Simple Kafka client library for .NET",
     "tags": [ "Kafka", "Client", "KafkaNET" ],
-    "projectUrl": "https://github.com/songdongsheng/EventBus",
+    "projectUrl": "https://github.com/songdongsheng/Kafka.NET",
     "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
     "releaseNotes": "https://github.com/songdongsheng/Kafka.NET/releases",
     "iconUrl" : "https://upload.wikimedia.org/wikipedia/en/0/0d/Microsoft_.NET_Framework_v4.5_logo.png",

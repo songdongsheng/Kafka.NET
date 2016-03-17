@@ -1,0 +1,22 @@
+# git check-attr -a LICENSE
+
+# Tell Git not to attempt any end-of-line conversion upon checkin or checkout.
+*               -text
+
+*.jpg           binary
+*.png           binary
+*.snk           binary
+
+*.csproj        text eol=crlf
+*.sln           text eol=crlf
+
+.*              text eol=lf
+*.config        text eol=lf
+*.cs            text eol=lf
+*.json          text eol=lf
+*.md            text eol=lf
+*.nuspec        text eol=lf
+*.yml           text eol=lf
+
+LICENSE         text eol=lf
+Doxyfile        text eol=lf

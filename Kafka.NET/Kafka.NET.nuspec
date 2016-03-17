@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Kafka.NET</id>
+        <version>0.1.0</version>
+        <authors>宋冬生</authors>
+        <description>
+Simple Kafka client library for .NET
+
+.NET Framework 4.5 (or later) and CoreCLR 1.0 (or later) is officially supported
+        </description>
+        <tags>"Kafka", "Client", "KafkaNET"</tags>
+        <projectUrl>https://github.com/songdongsheng/Kafka.NET</projectUrl>
+        <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <releaseNotes>https://github.com/songdongsheng/Kafka.NET/releases</releaseNotes>
+        <iconUrl>https://upload.wikimedia.org/wikipedia/en/0/0d/Microsoft_.NET_Framework_v4.5_logo.png</iconUrl>
+    </metadata>
+    <files>
+        <file src="Properties\AssemblyInfo.cs" target="src\Properties" />
+
+        <file src="Message.cs" target="src" />
+        <file src="Producer.cs" target="src" />
+        <file src="ProducerConfig.cs" target="src" />
+        <file src="StringMessage.cs" target="src" />
+
+        <file src="Doxyfile" target="src\Doxyfile" />
+        <file src="Kafka.NET.csproj" target="src" />
+        <file src="project.json" target="src" />
+
+        <file src="..\dongsheng.snk" target="\" />
+
+        <file src="bin\Release\net461\Kafka.NET.xml" target="doc" />
+        <file src="html\" target="doc\html\" />
+        <file src="man\" target="doc\man\" />
+
+        <file src="bin\Release\netstandardapp1.5\Kafka.NET.dll" target="lib\netstandardapp1.5" />
+        <file src="bin\Release\netstandardapp1.5\Kafka.NET.pdb" target="lib\netstandardapp1.5" />
+
+        <file src="bin\Release\net461\Kafka.NET.dll" target="lib\net461" />
+        <file src="bin\Release\net461\Kafka.NET.pdb" target="lib\net461" />
+
+        <file src="bin\Release\net46\Kafka.NET.dll" target="lib\net46" />
+        <file src="bin\Release\net46\Kafka.NET.pdb" target="lib\net46" />
+
+        <file src="bin\Release\net45\Kafka.NET.dll" target="lib\net45" />
+        <file src="bin\Release\net45\Kafka.NET.pdb" target="lib\net45" />
+    </files>
+</package>

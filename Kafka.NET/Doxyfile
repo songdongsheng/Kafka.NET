@@ -1,0 +1,14 @@
+PROJECT_NAME    = Kafka.NET
+PROJECT_NUMBER  = 0.1.0
+
+GENERATE_HTML   = YES
+GENERATE_MAN    = YES
+GENERATE_LATEX  = NO
+
+USE_MDFILE_AS_MAINPAGE = ../README.md
+
+INPUT                  = ../README.md
+INPUT                 += Message.cs
+INPUT                 += Producer.cs
+INPUT                 += ProducerConfig.cs
+INPUT                 += StringMessage.cs

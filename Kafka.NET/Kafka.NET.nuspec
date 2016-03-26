@@ -7,7 +7,7 @@
         <description>
 Simple Kafka client library for .NET
 
-.NET Framework 4.5 (or later) and CoreCLR 1.0 (or later) is officially supported
+.NET Framework 4.5 (or later) and .NET Core 1.0 (or later) is officially supported
         </description>
         <tags>"Kafka", "Client", "KafkaNET"</tags>
         <projectUrl>https://github.com/songdongsheng/Kafka.NET</projectUrl>

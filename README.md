@@ -39,12 +39,12 @@ Building from source
 
     cd Kafka.NET
 
+    dotnet restore -v Verbose
+    dotnet build -c Release
+
     msbuild Kafka.NET.csproj /t:Rebuild /p:Platform=AnyCPU /p:Configuration=Release
     msbuild Kafka.NET.csproj /t:Rebuild /p:Platform=AnyCPU /p:Configuration=Release46
     msbuild Kafka.NET.csproj /t:Rebuild /p:Platform=AnyCPU /p:Configuration=Release45
-
-    dotnet restore
-    dotnet build -c Release
 
     doxygen
 
